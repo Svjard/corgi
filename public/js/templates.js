@@ -5,6 +5,6 @@ define(function(require) {
   	login:           require('tpl!templates/login.tmpl'),
   	home:            require('tpl!templates/main/home.tmpl'),
   	header:          require('tpl!templates/main/header.tmpl'),
-  	content:         require('tpl!templates/main/content.tmpl')
+  	dashboards:      require('tpl!templates/main/dashboards.tmpl')
   };
 });

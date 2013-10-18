@@ -5,7 +5,7 @@ define(
     'use strict';
 
     return Marionette.ItemView.extend({
-      template: templates.content,
+      template: templates.dashboards,
       initialize: function() {
       	//$(window).on('resize.profile', _.bind(this.resize, this));
       },

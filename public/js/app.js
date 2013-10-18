@@ -55,7 +55,7 @@ define(
       home = new views.home();
       app.main.show(home);
       home.header.show(new views.header());
-      home.content.show(new views.content());
+      home.content.show(new views.dashboards());
     });
 
     /*!
